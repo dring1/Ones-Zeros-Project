@@ -1,5 +1,6 @@
 @import "bootstrap";
-
+@import url(http://fonts.googleapis.com/css?family=Offside);
+@import url(http://fonts.googleapis.com/css?family=Sniglet);
 /* mixins, variables, etc. */
 
 /* mixins, variables, etc. */
@@ -35,6 +36,17 @@ textarea {
   h1 {
     margin-bottom: 10px;
   }
+}
+
+.logo{
+  font-size: 2.5em;
+  .first{
+    font-family: 'Offside', cursive;
+  }
+  .second{
+    font-family: 'Sniglet', cursive;
+  }
+  
 }
 
 /* typography */
