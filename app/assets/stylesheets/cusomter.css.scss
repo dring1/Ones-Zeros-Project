@@ -29,6 +29,7 @@ body {
   background-size: cover;
 /*  background-image: image-url("backgroundimg2.jpg");
   background-repeat: no-repeat;*/
+    
 }
 
 section {
@@ -107,14 +108,13 @@ p {
 /* footer */
 
 footer {
-  margin-top: 45px;
+  margin-top: 500px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
   a {
     color: $gray;
     &:hover {
-      color: $grayDarker;
+      color: blue;
     }
   }
   small {
