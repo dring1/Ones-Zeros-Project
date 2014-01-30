@@ -4,19 +4,31 @@
       <%= link_to "Ones and Zeros Project", root_path,  id: "logo" %>
       <nav>
         <ul class="nav pull-right">
-          <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "About", about_path %></li>
-          <% if user_signed_in? %>
-            
-            <li> <%= link_to "Hello!, #{current_user.username}" %></li>.
-            <li> <%= link_to 'Edit profile', edit_user_registration_path %></li>
-            <li> <%= link_to "Logout", destroy_user_session_path, method: :delete %> </li>
-          <% else %>
-            <li> <%= link_to "Sign up", new_user_registration_path %> </li>
-            <li> <%= link_to "Login", new_user_session_path %> </li>
-          <% end %>
-        </ul>
-      </nav>
-    </div>
+        
+
+        <% if user_signed_in? %>
+
+          <li> <%= link_to "Hello!, #{current_user.username}" %></li>.
+          <li> <%= link_to 'Edit profile', edit_user_registration_path %></li>
+          <li> <%= link_to "Logout", destroy_user_session_path, method: :delete %> </li>
+        <% else %>
+          <li> <%= link_to "Sign up", new_user_registration_path %> </li> 
+          <li> <%= link_to "Login", new_user_session_path %> </li>
+        <% end %>
+         <div class="btn-group">
+          <button type="button" class="btn btn-info">Home</button>
+          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only"></span>
+          </button>             
+          <ul class="dropdown-menu" role="menu">
+            <li><%= link_to "Home", root_path %></li>
+            <li><%= link_to "About", about_path %></li>
+          </ul>
+
+        </div>  
+      </ul>
+    </nav>
   </div>
+</div>
 </header>
