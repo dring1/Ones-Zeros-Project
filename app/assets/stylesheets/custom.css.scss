@@ -111,10 +111,13 @@ footer {
   margin-top: 300px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
+
+  color: white;
   a {
-    color: $gray;
+    color: white;
+
     &:hover {
-      color: blue;
+      color: yellow;
     }
   }
   small {
@@ -146,9 +149,7 @@ footer {
    
   }
 }
-
-
-
-
-
-
+ 
+.label-fix{
+  
+}
