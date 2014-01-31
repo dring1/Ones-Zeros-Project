@@ -16,7 +16,8 @@
           <li> <%= link_to "Login", new_user_session_path %> </li>
         <% end %>
          <div class="btn-group">
-          <button type="button" class="btn btn-info">Home</button>
+          <!-- <a href=""><button type="button" class="btn btn-info">Home</button></a> -->
+          <%= link_to "<button type='button' class='btn btn-info'>Home</button>".html_safe, root_path %>
           <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
             <span class="caret"></span>
             <span class="sr-only"></span>
