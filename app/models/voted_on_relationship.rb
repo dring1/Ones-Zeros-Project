@@ -1,2 +1,4 @@
-class VotedOnRelationship < ActiveRecord::Base
+ class VotedOnRelationship < ActiveRecord::Base
+	belongs_to :user
+	belongs_to :article
 end
