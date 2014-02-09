@@ -1,8 +1,8 @@
 class ArticlesController < ApplicationController
 
 	  before_filter :authenticate_user!, except: [:index, :show]
-#thisis a test
-	  def new
+#this is a test
+	  def new	
 	  	@article = Article.new
 	  end
 
@@ -10,12 +10,18 @@ class ArticlesController < ApplicationController
 
 	  	@topics  = params[:article][:topics]
 
-	  	params.except!(:topics)
-	  	params[:article][:submitted_by] = current_user.id
-	  	@article = Article.create(params)
+	  	params[:article].except!(:topics)
 
+	  	params[:article][:user_id] = current_user.id
+
+	  	p params
+
+	  	@article = Article.create(article_params)
+
+	  	#refactor - 2 saves 
 	  	if @article.save
-	  		@article.topics_list.add(@topics, parse: true)
+	  		@article.topic_list.add(@topics, parse: true)
+	  		@article.save
 	  		redirect_to @article
 	  	else
 	  	end
@@ -34,5 +40,6 @@ class ArticlesController < ApplicationController
 	  end
 private
 	def article_params
+		params.require(:article).permit(:name, :user_id)
 	end	
 end

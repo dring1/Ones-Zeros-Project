@@ -14,7 +14,7 @@ class CustomDevise::RegistrationsController <  Devise::RegistrationsController
 			@user.interest_list.add(interests, parse: true)
 			if @user.save
 			else
-				flash[:Error].now = "Did not save tags"
+				flash[:error].now = "Did not save tags"
 			end
 		end
 	end
