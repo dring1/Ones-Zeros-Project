@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
 
   acts_as_taggable
   acts_as_taggable_on :interests
+  ActsAsTaggableOn.force_lowercase = true
 
   has_many :comments, dependent: :destroy
 
@@ -13,4 +14,5 @@ class User < ActiveRecord::Base
   has_many :articles, through: :voted_on_relationships
 
   validates :username, presence: true   
+
 end
