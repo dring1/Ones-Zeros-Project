@@ -1,0 +1,8 @@
+<% @article.each do |article| %>
+	<span><%= article.name %></span>
+	
+	<%= form_for article do |f| %>
+		<%= f.submit "Up", name: "up_vote", class:'btn btn-success'  %> | <%= f.submit "Down", name: "down_vote", class:'btn btn-danger'  %>
+	<% end %>
+	<br/>
+<% end %>

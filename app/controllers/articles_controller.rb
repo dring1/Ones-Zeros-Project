@@ -38,6 +38,19 @@ class ArticlesController < ApplicationController
 	  def destroy
 	  	
 	  end
+
+	  def update
+	  	@article = Article.find(params[:id])
+	  	if params[:up_vote]
+	  		puts "CALLED UPVOTE"
+	  	elsif paras[:down_vote]
+	  		puts "CALLED DOWNVOTE"
+	  	end
+	  	redirect_to @article
+	  		
+	  end
+
+	  
 private
 	def article_params
 		params.require(:article).permit(:name, :user_id)

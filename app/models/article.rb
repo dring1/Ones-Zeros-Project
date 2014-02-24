@@ -30,7 +30,6 @@ class Article < ActiveRecord::Base
 
     def self.rank(article, interests)
         popularity = article.up_vote - article.down_vote
-        p "VOTES: #{popularity}  "
         #compute percent value of intersection of topics and user interests
         accuracy   = (article.topic_list & interests).size.to_f / interests.size.to_f
         seconds  = epoch_seconds(article.created_at) - 1134028003
