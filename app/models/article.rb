@@ -9,8 +9,14 @@ class Article < ActiveRecord::Base
 
     EPOCH = Time.new(1970,1,1)
 
+    def vote(art_id)
+        voted_on_relationships.create(user_id: self.id, article_id: article_id)
+    end
+
     def self.recommend(interests)
         return self.limit(10) if interests.empty?
+
+        list = {}
         #BASE CASE FOR TOPICS SIZE is not array?
         #Using probabilistic model - undeterministed
         if interests.kind_of?(Array)
@@ -19,9 +25,14 @@ class Article < ActiveRecord::Base
             main_list = Article.tagged_with(main_topic)
             main_list.each do |article|
                 #include exclude topics?
+               list[article.id] =  self.rank(article, interests)
             end
             #find percentages - list by percentages 
+             list.sort_by {|k,v| v}.reverse
         end
+        output = []
+        list.each {|k,v| output << self.find_by(id: k) }
+        output
     end
 
 

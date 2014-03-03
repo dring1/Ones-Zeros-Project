@@ -1,8 +1,19 @@
 <% @article.each do |article| %>
+<div class='contrast-font'>
+
 	<span><%= article.name %></span>
 	
-	<%= form_for article do |f| %>
-		<%= f.submit "Up", name: "up_vote", class:'btn btn-success'  %> | <%= f.submit "Down", name: "down_vote", class:'btn btn-danger'  %>
+
+	<% if user_signed_in? %>	
+		<%= form_for article do |f| %>
+			<% if VotedOnRelationship.find_by_user_id_and_article_id(current_user.id, article.id)%>
+				<span>Already voted!</span>
+			<% else  %>
+				<%= f.submit "Up", name: "up_vote", class:'btn btn-success'  %> | <%= f.submit "Down", name: "down_vote", class:'btn btn-danger'  %>
+			<% end %>
+		<% end %>
+	
 	<% end %>
-	<br/>
+</div>
+<br/>
 <% end %>

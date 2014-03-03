@@ -33,6 +33,7 @@ class ArticlesController < ApplicationController
 
 	  def index
 	  	@article = Article.all
+
 	  end
 
 	  def destroy
@@ -41,12 +42,17 @@ class ArticlesController < ApplicationController
 
 	  def update
 	  	@article = Article.find(params[:id])
-	  	if params[:up_vote]
-	  		puts "CALLED UPVOTE"
-	  	elsif paras[:down_vote]
-	  		puts "CALLED DOWNVOTE"
-	  	end
-	  	redirect_to @article
+	  	if params[:up_vote] || params[:down_vote]
+	  		begin
+		  		if VotedOnRelationship.create!(user_id: current_user.id, article_id: @article.id)
+		  			params[:up_vote] ? @article.up_vote += 1 : @article.down_vote += 1
+			  		@article.save
+		  		end
+		  	rescue
+		  		flash[:warning] = "Already voted?!?"
+		  	end
+	 	end
+	  	redirect_to Article
 	  		
 	  end
 
