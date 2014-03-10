@@ -108,7 +108,8 @@ p {
 /* footer */
 
 footer {
-  margin-top: 300px;
+  
+  margin-top: 500px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
 
@@ -156,4 +157,11 @@ footer {
  
 .label-fix{
   
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
 }

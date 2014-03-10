@@ -32,7 +32,7 @@ class ArticlesController < ApplicationController
 	  end
 
 	  def index
-	  	@article = Article.all
+	  	@article = Article.all.sample(50)
 
 	  end
 
