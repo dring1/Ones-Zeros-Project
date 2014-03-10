@@ -1,5 +1,5 @@
 class Article < ActiveRecord::Base
-    before_save 
+    before_save
     acts_as_taggable
     acts_as_taggable_on :topics
     ActsAsTaggableOn.force_lowercase = true
@@ -13,52 +13,103 @@ class Article < ActiveRecord::Base
         voted_on_relationships.create(user_id: self.id, article_id: article_id)
     end
 
+    #overall recommendations
     def self.recommend(interests)
+        t1 = Time.new
         return self.limit(10) if interests.empty?
 
         list = {}
-        #BASE CASE FOR TOPICS SIZE is not array?
-        #Using probabilistic model - undeterministed
-        if interests.kind_of?(Array)
-            rand_index = interests.size
-            main_topic = interests[rand(rand_index)]
-            main_list = Article.tagged_with(main_topic)
-            main_list.each do |article|
-                #include exclude topics?
-               list[article.id] =  self.rank(article, interests)
+            #BASE CASE FOR TOPICS SIZE is not array?
+            #Using probabilistic model - undeterministed
+            if interests.kind_of?(Array)
+                rand_index = interests.size
+                #main_topic = interests[rand(rand_index)]
+                main_topic = interests.sample(Math.sqrt(interests.size).ceil)
+                main_list = Article.tagged_with(main_topic)
+
+                t2 = Time.new
+                #temp= main_list.sample(Math.sqrt(main_list.size).ceil)
+                #reduce number of elements in main list to ceil,(root n )
+                t3 = Time.new
+                main_list.sample(Math.sqrt(main_list.size).ceil).each do |article|
+                    list[article.id] =  self.rank(article, interests,true).ceil
+                end
+                t4 = Time.new
+                #find percentages - list by percentages
+                list.sort_by {|k,v| v}
+                t5 = Time.new
+                list
             end
-            #find percentages - list by percentages 
-             list.sort_by {|k,v| v}.reverse
+
+        #returns recommended in descending order
+        recommended = list.sort_by {|k,v| v}.last(10)
+
+        output = {}
+        recommended.each { |k,v| output[Article.find_by(id: k)] = v}
+
+        t6 = Time.new
+        file = File.open("output-25k.txt", "a")
+        file << "main_list size: #{main_list.size} main_topic size:
+          #{main_topic.size}\n"
+        file << "DIFF2 #{t2 - t1} \n"
+        file << "DIFF3 #{t3 - t1} \n"
+        file << "DIFF4 #{t4 - t1} \n"
+        file << "DIFF5 #{t5 - t1} \n"
+        file << "DIFF6 #{t6 - t1}\n"
+        file.close
+
+        Hash[output.to_a.reverse]
+
+    end
+
+    def self.specific_recommend(interest)
+        main_list = Article.tagged_with(interest)
+        list = {}
+        main_list.each do |article|
+            list[article.id] =  self.rank(article, interest, false).ceil
         end
-        output = []
-        list.each {|k,v| output << self.find_by(id: k) }
-        output
+        recommended = list.sort_by {|k,v| v}.last(10)
+        output = {}
+        recommended.each { |k,v| output[Article.find_by(id: k)] = v}
+        Hash[output.to_a.reverse]
     end
 
 
     #REDDIT'S 2005 HOT ALGORITHM WITH CUSTOM ACCURACY
     #http://amix.dk/blog/post/19588
-
-    def self.rank(article, interests)
+    # very expensive but accurate results
+    def self.rank(article, interests, specific)
+        t1 = Time.new
         popularity = article.up_vote - article.down_vote
         #compute percent value of intersection of topics and user interests
-        accuracy   = (article.topic_list & interests).size.to_f / interests.size.to_f
+        accuracy = if specific
+                        (article.topic_list & interests).size.to_f /
+                        interests.size.to_f
+                    else
+                        1
+                    end
+        t2 = Time.new
         seconds  = epoch_seconds(article.created_at) - 1134028003
         order = Math.log([popularity.abs,1].max ,10)
+        t3 = Time.new
         sign  = if popularity > 0
-                    1
-                elsif  popularity < 0
-                    -1
-                else
-                    0
-                end
-        ((order + sign * seconds / 45000) * accuracy).round(7)
+            1
+        elsif  popularity < 0
+            -1
+        else
+            0
+        end
+
+        temp = ((order * sign * seconds / 45000) * accuracy).round(7)
+        t4 = Time.new
+        #puts "*******   #{t2 - t1}  || #{t3 - t1} || #{t4 - t1}   "
+        temp
     end
+
 
     def self.epoch_seconds(date)
         diff = (date - EPOCH).to_i
     end
-
 
 
 

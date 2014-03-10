@@ -11,4 +11,5 @@ OnesZerosProject::Application.routes.draw do
 
 
   get '/submit_article', to: "articles#new"
+  post '/spec', to: "static_pages#spec_rec"
 end
