@@ -1,0 +1,10 @@
+ID: 152 - recommendation score 2862.5470359
+ID: 145 - recommendation score 2172.0139321
+ID: 156 - recommendation score 1739.4967465
+ID: 149 - recommendation score 1521.3605555
+ID: 154 - recommendation score 1358.3896444
+ID: 151 - recommendation score 873.8160423
+ID: 162 - recommendation score -1068.0507886
+ID: 160 - recommendation score -1328.20607
+ID: 146 - recommendation score -1991.634381
+ID: 150 - recommendation score -2046.8640141

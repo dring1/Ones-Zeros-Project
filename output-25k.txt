@@ -1,0 +1,2134 @@
+3.366023
+3.7994
+4.054344
+4.348111
+4.041438
+3.424599
+3.495919
+3.728063
+3.719521
+3.303771
+3.967033
+3.883352
+4.247011
+3.489967
+4.145269
+3.48685
+4.111111
+3.514492
+3.937991
+DIFF2 0.001909 
+DIFF4 0.646453 
+DIFF4 3.821587 
+DIFF5 3.821756 
+3.839508
+DIFF2 0.00651 
+DIFF4 0.78333 
+DIFF4 4.109215 
+DIFF5 4.109327 
+4.114653
+DIFF2 0.001591 
+DIFF3 0.650535 
+DIFF4 3.528698 
+DIFF5 3.528791 
+3.533843
+DIFF2 0.00286 
+DIFF3 0.668048 
+DIFF4 3.907782 
+DIFF5 3.907875 
+3.91408
+DIFF2 0.001246 
+DIFF3 0.608305 
+DIFF4 3.534219 
+DIFF5 3.534311 
+3.538801
+DIFF2 0.001879 
+DIFF3 0.794836 
+DIFF4 3.839971 
+DIFF5 3.840064 
+3.844968
+DIFF2 0.001606 
+DIFF3 0.647759 
+DIFF4 4.16364 
+DIFF5 4.163742 
+4.168191
+DIFF2 0.00227 
+DIFF3 0.929712 
+DIFF4 4.326361 
+DIFF5 4.326526 
+4.331634
+DIFF2 0.001693 
+DIFF3 0.641174 
+DIFF4 3.875953 
+DIFF5 3.876049 
+3.880702
+DIFF2 0.002041 
+DIFF3 0.739189 
+DIFF4 4.257696 
+DIFF5 4.25784 
+4.263663
+DIFF2 0.002301 
+DIFF3 0.634738 
+DIFF4 3.841304 
+DIFF5 3.841401 
+3.845899
+DIFF2 0.001221 
+DIFF3 0.705496 
+DIFF4 4.263211 
+DIFF5 4.263309 
+4.276974
+DIFF2 0.001182 
+DIFF3 0.630188 
+DIFF4 3.919365 
+DIFF5 3.919459 
+3.923808
+DIFF2 0.002235 
+DIFF3 0.603344 
+DIFF4 3.776174 
+DIFF5 3.776296 
+3.781669
+DIFF2 0.003217 
+DIFF3 0.719284 
+DIFF4 4.158235 
+DIFF5 4.158378 
+4.22772
+DIFF2 0.002682 
+DIFF3 0.633008 
+DIFF4 0.643008 
+DIFF5 0.643094 
+0.648324
+DIFF2 0.00401 
+DIFF3 0.87129 
+DIFF4 0.884609 
+DIFF5 0.884776 
+0.892003
+DIFF2 0.001004 
+DIFF3 0.640049 
+DIFF4 0.646183 
+DIFF5 0.646263 
+0.651529
+DIFF2 0.001694 
+DIFF3 0.675778 
+DIFF4 0.685965 
+DIFF5 0.686043 
+0.691423
+DIFF2 0.001644 
+DIFF3 0.670582 
+DIFF4 0.681825 
+DIFF5 0.681945 
+0.687918
+DIFF2 0.001521 
+DIFF3 0.785436 
+DIFF4 0.796431 
+DIFF5 0.796577 
+0.801679
+DIFF2 0.001908 
+DIFF3 0.452012 
+DIFF4 0.460375 
+DIFF5 0.46046 
+0.468783
+DIFF2 0.007941 
+DIFF3 0.733781 
+DIFF4 0.74239 
+DIFF5 0.742496 
+0.747889
+DIFF2 0.002008 
+DIFF3 0.386785 
+DIFF4 2.437616 
+DIFF5 2.437686 
+2.442953
+DIFF2 0.00134 
+DIFF3 0.397672 
+DIFF4 2.55253 
+DIFF5 2.552726 
+2.560013
+DIFF2 0.001263 
+DIFF3 0.379121 
+DIFF4 2.670968 
+DIFF5 2.671039 
+2.680621
+DIFF2 0.003581 
+DIFF3 0.523536 
+DIFF4 2.931306 
+DIFF5 2.93139 
+2.936606
+DIFF2 0.001194 
+DIFF3 0.381216 
+DIFF4 2.86514 
+DIFF5 2.865225 
+2.87123
+DIFF2 0.002833 
+DIFF3 0.451325 
+DIFF4 3.135746 
+DIFF5 3.135866 
+3.175928
+DIFF2 0.001759 
+DIFF3 0.421369 
+DIFF4 2.719292 
+DIFF5 2.719363 
+2.738114
+DIFF2 0.002782 
+DIFF3 0.408189 
+DIFF4 2.76754 
+DIFF5 2.767668 
+2.774176
+DIFF2 0.001405 
+DIFF3 0.402404 
+DIFF4 2.570027 
+DIFF5 2.570109 
+2.575273
+DIFF2 0.00135 
+DIFF3 0.530482 
+DIFF4 3.043526 
+DIFF5 3.043606 
+3.04866
+DIFF2 0.001757 
+DIFF3 0.377349 
+DIFF4 0.383699 
+DIFF5 0.383762 
+0.389165
+DIFF2 0.003784 
+DIFF3 0.436424 
+DIFF4 0.441629 
+DIFF5 0.441692 
+0.447703
+main_list size: 6314DIFF2 0.001717 
+DIFF3 0.400568 
+DIFF4 2.637954 
+DIFF5 2.638055 
+2.642984
+main_list size: 6185DIFF2 0.002473 
+DIFF3 0.418353 
+DIFF4 2.693537 
+DIFF5 2.693648 
+2.699104
+main_list size: 6185DIFF2 0.001584 
+DIFF3 0.346482 
+DIFF4 2.425959 
+DIFF5 2.426041 
+2.430819
+main_list size: 6185DIFF2 0.004774 
+DIFF3 0.474922 
+DIFF4 2.599469 
+DIFF5 2.59955 
+2.604454
+main_list size: 6314DIFF2 0.001168 
+DIFF3 0.346279 
+DIFF4 2.477864 
+DIFF5 2.47793 
+2.483035
+main_list size: 6314DIFF2 0.001906 
+DIFF3 0.4213 
+DIFF4 2.679571 
+DIFF5 2.679657 
+2.684687
+main_list size: 6185DIFF2 0.001452 
+DIFF3 0.362225 
+DIFF4 2.393661 
+DIFF5 2.393727 
+2.398112
+main_list size: 6314DIFF2 0.002283 
+DIFF3 0.375423 
+DIFF4 2.668736 
+DIFF5 2.668817 
+2.673744
+main_list size: 12514DIFF2 0.002263 
+DIFF3 0.555756 
+DIFF4 3.564467 
+DIFF5 3.564605 
+3.569554
+main_list size: 12522DIFF2 0.002934 
+DIFF3 0.760552 
+DIFF4 3.901347 
+DIFF5 3.901493 
+3.906911
+main_list size: 12453DIFF2 0.001061 
+DIFF3 0.702839 
+DIFF4 3.869672 
+DIFF5 3.86981 
+3.87535
+main_list size: 12514DIFF2 0.001611 
+DIFF3 0.642002 
+DIFF4 3.703396 
+DIFF5 3.703525 
+3.708359
+main_list size: 12514DIFF2 0.001623 
+DIFF3 0.610753 
+DIFF4 3.493313 
+DIFF5 3.493408 
+3.497794
+main_list size: 12514DIFF2 0.00281 
+DIFF3 0.640766 
+DIFF4 3.755969 
+DIFF5 3.756162 
+3.760859
+main_list size: 12514DIFF2 0.001153 
+DIFF3 0.556044 
+DIFF4 3.433938 
+DIFF5 3.434037 
+3.438362
+main_list size: 12514DIFF2 0.001249 
+DIFF3 0.836428 
+DIFF4 3.796243 
+DIFF5 3.796337 
+3.801146
+main_list size: 12453 main_topic size: 1
+DIFF2 0.001575 
+DIFF3 0.62462 
+DIFF4 3.466281 
+DIFF5 3.466422 
+3.471302
+main_list size: 12453 main_topic size: 1
+DIFF2 0.001858 
+DIFF3 0.651344 
+DIFF4 3.980556 
+DIFF5 3.980654 
+3.985673
+main_list size: 12453 main_topic size: 1
+DIFF2 0.002622 
+DIFF3 0.654997 
+DIFF4 4.006653 
+DIFF5 4.006747 
+4.01226
+main_list size: 12453 main_topic size: 1
+DIFF2 0.001823 
+DIFF3 0.748282 
+DIFF4 3.784599 
+DIFF5 3.784732 
+3.789913
+main_list size: 6185 main_topic size: 2
+DIFF2 0.001849 
+DIFF3 0.370362 
+DIFF4 2.395987 
+DIFF5 2.396093 
+2.401322
+main_list size: 6185 main_topic size: 2
+DIFF2 0.001295 
+DIFF3 0.46683 
+DIFF4 2.657893 
+DIFF5 2.658014 
+2.66361
+main_list size: 6185 main_topic size: 2
+DIFF2 0.001269 
+DIFF3 0.356866 
+DIFF4 2.720484 
+DIFF5 2.72057 
+2.726815
+main_list size: 6185 main_topic size: 2
+DIFF2 0.00173 
+DIFF3 0.409173 
+DIFF4 2.675303 
+DIFF5 2.675453 
+2.681629
+main_list size: 6185 main_topic size: 2
+DIFF2 0.001654 
+DIFF3 0.317593 
+DIFF4 2.381156 
+DIFF5 2.381229 
+2.385805
+main_list size: 6185 main_topic size: 2
+DIFF2 0.002065 
+DIFF3 0.402098 
+DIFF4 2.735136 
+DIFF5 2.735303 
+2.740436
+main_list size: 6185 main_topic size: 2
+DIFF2 0.001129 
+DIFF3 0.371035 
+DIFF4 2.609443 
+DIFF5 2.609527 
+2.614585
+main_list size: 6185 main_topic size: 2
+DIFF2 0.002199 
+DIFF3 0.413333 
+DIFF4 2.617802 
+DIFF5 2.617902 
+2.623634
+main_list size: 6314 main_topic size: 2
+DIFF2 0.001797 
+DIFF3 0.536661 
+DIFF4 3.023835 
+DIFF5 3.023959 
+3.029278
+main_list size: 6185 main_topic size: 2
+DIFF2 0.001559 
+DIFF3 0.469253 
+DIFF4 3.061252 
+DIFF5 3.061371 
+3.066777
+main_list size: 12514 main_topic size: 1
+DIFF2 0.131933 
+DIFF3 0.682333 
+DIFF4 3.777712 
+DIFF5 3.777797 
+3.78845
+main_list size: 12514 main_topic size: 1
+DIFF2 0.002232 
+DIFF3 0.560239 
+DIFF4 3.505977 
+DIFF5 3.506078 
+3.510235
+main_list size: 12514 main_topic size: 1
+DIFF2 0.001819 
+DIFF3 0.567825 
+DIFF4 3.593175 
+DIFF5 3.593268 
+3.597483
+main_list size: 12514 main_topic size: 1
+DIFF2 0.114325 
+DIFF3 0.685145 
+DIFF4 0.691561 
+DIFF5 0.691651 
+0.698374
+main_list size: 12514 main_topic size: 1
+DIFF2 0.120993 
+DIFF3 0.711097 
+DIFF4 0.717525 
+DIFF5 0.717616 
+0.780843
+main_list size: 12453 main_topic size: 1
+DIFF2 0.0024 
+DIFF3 0.577078 
+DIFF4 0.583437 
+DIFF5 0.583524 
+0.648502
+main_list size: 12453 main_topic size: 1
+DIFF2 0.001976 
+DIFF3 0.569495 
+DIFF4 0.576547 
+DIFF5 0.576626 
+0.676752
+main_list size: 12453 main_topic size: 
+DIFF2 0.113405 
+DIFF3 0.688317 
+DIFF4 0.698242 
+DIFF5 0.698372 
+0.706219
+main_list size: 12453 main_topic size: 
+DIFF2 0.002613 
+DIFF3 0.564513 
+DIFF4 0.571376 
+DIFF5 0.571459 
+0.575678
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002443 
+DIFF3 0.002448 
+DIFF4 3.529142 
+DIFF5 3.529214 
+DIFF6 3.546879
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002299 
+DIFF3 0.002304 
+DIFF4 3.617474 
+DIFF5 3.617541 
+DIFF6 3.63485
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002018 
+DIFF3 0.00202 
+DIFF4 3.525072 
+DIFF5 3.525137 
+DIFF6 3.542674
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002346 
+DIFF3 0.002349 
+DIFF4 3.778047 
+DIFF5 3.778122 
+DIFF6 3.78324
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.003292 
+DIFF3 0.003297 
+DIFF4 3.986949 
+DIFF5 3.987022 
+DIFF6 4.013584
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001535 
+DIFF3 0.001538 
+DIFF4 3.749895 
+DIFF5 3.749969 
+DIFF6 3.756926
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001442 
+DIFF3 0.001443 
+DIFF4 3.908832 
+DIFF5 3.908904 
+DIFF6 3.966987
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001768 
+DIFF3 0.00177 
+DIFF4 3.838687 
+DIFF5 3.838756 
+DIFF6 3.861414
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001737 
+DIFF3 0.001742 
+DIFF4 3.98991 
+DIFF5 3.989979 
+DIFF6 4.006982
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001794 
+DIFF3 0.001797 
+DIFF4 3.820987 
+DIFF5 3.821058 
+DIFF6 3.84089
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001464 
+DIFF3 0.001467 
+DIFF4 3.960054 
+DIFF5 3.960125 
+DIFF6 3.966648
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001397 
+DIFF3 0.001398 
+DIFF4 3.762292 
+DIFF5 3.7624 
+DIFF6 3.769147
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001983 
+DIFF3 0.001984 
+DIFF4 3.87744 
+DIFF5 3.877507 
+DIFF6 3.882539
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002019 
+DIFF3 0.00202 
+DIFF4 3.984693 
+DIFF5 3.984757 
+DIFF6 4.00883
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001738 
+DIFF3 0.001739 
+DIFF4 3.890146 
+DIFF5 3.890214 
+DIFF6 3.895318
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002123 
+DIFF3 0.002125 
+DIFF4 3.805147 
+DIFF5 3.805313 
+DIFF6 3.818781
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002418 
+DIFF3 0.002421 
+DIFF4 3.690105 
+DIFF5 3.690178 
+DIFF6 3.69463
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001685 
+DIFF3 0.001687 
+DIFF4 3.590971 
+DIFF5 3.591042 
+DIFF6 3.596294
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001431 
+DIFF3 0.001434 
+DIFF4 3.766542 
+DIFF5 3.766611 
+DIFF6 3.772049
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002056 
+DIFF3 0.002059 
+DIFF4 3.444827 
+DIFF5 3.4449 
+DIFF6 3.450844
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001554 
+DIFF3 0.001557 
+DIFF4 3.439257 
+DIFF5 3.439333 
+DIFF6 3.44503
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001627 
+DIFF3 0.00163 
+DIFF4 3.625353 
+DIFF5 3.625427 
+DIFF6 3.630999
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001594 
+DIFF3 0.001597 
+DIFF4 3.464805 
+DIFF5 3.46488 
+DIFF6 3.470764
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001544 
+DIFF3 0.001548 
+DIFF4 3.368059 
+DIFF5 3.368132 
+DIFF6 3.373724
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.00202 
+DIFF3 0.002023 
+DIFF4 3.599912 
+DIFF5 3.600034 
+DIFF6 3.606935
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.074609 
+DIFF3 0.074613 
+DIFF4 3.399884 
+DIFF5 3.399956 
+DIFF6 3.405039
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002112 
+DIFF3 0.002119 
+DIFF4 3.756454 
+DIFF5 3.756527 
+DIFF6 3.76194
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001521 
+DIFF3 0.001524 
+DIFF4 3.695854 
+DIFF5 3.695952 
+DIFF6 3.702594
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001546 
+DIFF3 0.00155 
+DIFF4 3.37318 
+DIFF5 3.373254 
+DIFF6 3.379007
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001411 
+DIFF3 0.001414 
+DIFF4 3.645863 
+DIFF5 3.645939 
+DIFF6 3.651175
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001656 
+DIFF3 0.001659 
+DIFF4 3.854049 
+DIFF5 3.854138 
+DIFF6 3.859527
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001504 
+DIFF3 0.001508 
+DIFF4 3.453878 
+DIFF5 3.453948 
+DIFF6 3.51444
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002207 
+DIFF3 0.002214 
+DIFF4 3.558571 
+DIFF5 3.558645 
+DIFF6 3.563782
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.00146 
+DIFF3 0.001463 
+DIFF4 3.490869 
+DIFF5 3.490941 
+DIFF6 3.496721
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.003471 
+DIFF3 0.00348 
+DIFF4 3.762094 
+DIFF5 3.762163 
+DIFF6 3.7674
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001648 
+DIFF3 0.001651 
+DIFF4 3.85081 
+DIFF5 3.85092 
+DIFF6 3.856905
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002511 
+DIFF3 0.002519 
+DIFF4 3.946588 
+DIFF5 3.946738 
+DIFF6 3.952356
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001828 
+DIFF3 0.001831 
+DIFF4 3.611728 
+DIFF5 3.611804 
+DIFF6 3.616711
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.004996 
+DIFF3 0.005001 
+DIFF4 4.059879 
+DIFF5 4.059993 
+DIFF6 4.065139
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001868 
+DIFF3 0.001871 
+DIFF4 3.665038 
+DIFF5 3.665112 
+DIFF6 3.670343
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002081 
+DIFF3 0.002085 
+DIFF4 3.744468 
+DIFF5 3.744601 
+DIFF6 3.750073
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002605 
+DIFF3 0.002607 
+DIFF4 3.657305 
+DIFF5 3.657378 
+DIFF6 3.663551
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.00157 
+DIFF3 0.001572 
+DIFF4 3.998618 
+DIFF5 3.998695 
+DIFF6 4.007267
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.003043 
+DIFF3 0.003048 
+DIFF4 3.894778 
+DIFF5 3.894849 
+DIFF6 3.900208
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001367 
+DIFF3 0.00137 
+DIFF4 3.688462 
+DIFF5 3.688533 
+DIFF6 3.694328
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.00184 
+DIFF3 0.001843 
+DIFF4 3.641414 
+DIFF5 3.64153 
+DIFF6 3.656034
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001895 
+DIFF3 0.001898 
+DIFF4 3.942695 
+DIFF5 3.942765 
+DIFF6 3.956018
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001549 
+DIFF3 0.001552 
+DIFF4 3.773853 
+DIFF5 3.773976 
+DIFF6 3.788794
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.00159 
+DIFF3 0.001591 
+DIFF4 3.906918 
+DIFF5 3.906985 
+DIFF6 3.913259
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001422 
+DIFF3 0.001425 
+DIFF4 4.025543 
+DIFF5 4.025615 
+DIFF6 4.032091
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002655 
+DIFF3 0.00266 
+DIFF4 3.851798 
+DIFF5 3.851874 
+DIFF6 3.858841
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001322 
+DIFF3 0.001323 
+DIFF4 3.756412 
+DIFF5 3.756479 
+DIFF6 3.777437
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001367 
+DIFF3 0.00137 
+DIFF4 3.407305 
+DIFF5 3.407376 
+DIFF6 3.412031
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002275 
+DIFF3 0.002277 
+DIFF4 3.766061 
+DIFF5 3.766126 
+DIFF6 3.771369
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.003147 
+DIFF3 0.003151 
+DIFF4 3.637602 
+DIFF5 3.637699 
+DIFF6 3.642908
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001782 
+DIFF3 0.001786 
+DIFF4 3.856272 
+DIFF5 3.856342 
+DIFF6 3.86158
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001696 
+DIFF3 0.001699 
+DIFF4 3.360069 
+DIFF5 3.360143 
+DIFF6 3.366311
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002779 
+DIFF3 0.002785 
+DIFF4 3.865793 
+DIFF5 3.865862 
+DIFF6 3.87177
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001292 
+DIFF3 0.001293 
+DIFF4 3.681483 
+DIFF5 3.681552 
+DIFF6 3.686947
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001645 
+DIFF3 0.001646 
+DIFF4 4.024508 
+DIFF5 4.024574 
+DIFF6 4.030022
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002695 
+DIFF3 0.002699 
+DIFF4 3.901819 
+DIFF5 3.901892 
+DIFF6 3.915579
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002189 
+DIFF3 0.002191 
+DIFF4 3.656777 
+DIFF5 3.656846 
+DIFF6 3.661666
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001194 
+DIFF3 0.001195 
+DIFF4 3.623028 
+DIFF5 3.623093 
+DIFF6 3.647587
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001918 
+DIFF3 0.001918 
+DIFF4 3.821662 
+DIFF5 3.821729 
+DIFF6 3.826778
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001554 
+DIFF3 0.001559 
+DIFF4 3.81588 
+DIFF5 3.815957 
+DIFF6 3.822585
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001965 
+DIFF3 0.001966 
+DIFF4 3.876259 
+DIFF5 3.876329 
+DIFF6 3.885091
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001195 
+DIFF3 0.001195 
+DIFF4 3.679481 
+DIFF5 3.679547 
+DIFF6 3.698171
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002107 
+DIFF3 0.002112 
+DIFF4 3.971346 
+DIFF5 3.971428 
+DIFF6 3.984065
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001359 
+DIFF3 0.001362 
+DIFF4 3.925451 
+DIFF5 3.925523 
+DIFF6 3.930611
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001191 
+DIFF3 0.001191 
+DIFF4 4.050188 
+DIFF5 4.050254 
+DIFF6 4.077113
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001556 
+DIFF3 0.001559 
+DIFF4 4.121454 
+DIFF5 4.121522 
+DIFF6 4.136076
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001412 
+DIFF3 0.001415 
+DIFF4 3.761052 
+DIFF5 3.761119 
+DIFF6 3.766514
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002514 
+DIFF3 0.002517 
+DIFF4 3.859907 
+DIFF5 3.860031 
+DIFF6 3.887046
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002106 
+DIFF3 0.00211 
+DIFF4 5.300848 
+DIFF5 5.300975 
+DIFF6 5.326213
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.00264 
+DIFF3 0.002643 
+DIFF4 3.756185 
+DIFF5 3.756343 
+DIFF6 3.765049
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001706 
+DIFF3 0.001709 
+DIFF4 3.654767 
+DIFF5 3.654839 
+DIFF6 3.669147
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001898 
+DIFF3 0.001899 
+DIFF4 4.104772 
+DIFF5 4.104848 
+DIFF6 4.111303
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.00132 
+DIFF3 0.001323 
+DIFF4 3.7602 
+DIFF5 3.760319 
+DIFF6 3.773985
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001565 
+DIFF3 0.001568 
+DIFF4 3.386346 
+DIFF5 3.386417 
+DIFF6 3.391836
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001236 
+DIFF3 0.001239 
+DIFF4 3.540779 
+DIFF5 3.54085 
+DIFF6 3.54602
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001376 
+DIFF3 0.001379 
+DIFF4 3.909371 
+DIFF5 3.90944 
+DIFF6 3.920765
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001294 
+DIFF3 0.001297 
+DIFF4 3.349386 
+DIFF5 3.349458 
+DIFF6 3.355243
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001921 
+DIFF3 0.001924 
+DIFF4 3.743341 
+DIFF5 3.743411 
+DIFF6 3.74917
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001565 
+DIFF3 0.001568 
+DIFF4 3.719285 
+DIFF5 3.719355 
+DIFF6 3.72421
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001719 
+DIFF3 0.001722 
+DIFF4 3.823887 
+DIFF5 3.823968 
+DIFF6 3.829143
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002707 
+DIFF3 0.002711 
+DIFF4 4.306601 
+DIFF5 4.30667 
+DIFF6 4.31325
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001787 
+DIFF3 0.00179 
+DIFF4 4.321019 
+DIFF5 4.321086 
+DIFF6 4.32848
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001178 
+DIFF3 0.001178 
+DIFF4 3.366397 
+DIFF5 3.366464 
+DIFF6 3.371919
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002127 
+DIFF3 0.00213 
+DIFF4 3.593337 
+DIFF5 3.593403 
+DIFF6 3.598353
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001245 
+DIFF3 0.001247 
+DIFF4 3.61092 
+DIFF5 3.610991 
+DIFF6 3.6167
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001506 
+DIFF3 0.001509 
+DIFF4 3.892466 
+DIFF5 3.892535 
+DIFF6 3.897548
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001634 
+DIFF3 0.001638 
+DIFF4 3.566915 
+DIFF5 3.56699 
+DIFF6 3.573064
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002215 
+DIFF3 0.002219 
+DIFF4 3.775537 
+DIFF5 3.775611 
+DIFF6 3.791316
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001547 
+DIFF3 0.001549 
+DIFF4 3.827387 
+DIFF5 3.827476 
+DIFF6 3.832933
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001642 
+DIFF3 0.001645 
+DIFF4 3.800358 
+DIFF5 3.800431 
+DIFF6 3.815667
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001495 
+DIFF3 0.001498 
+DIFF4 3.506014 
+DIFF5 3.506081 
+DIFF6 3.510587
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001413 
+DIFF3 0.001417 
+DIFF4 3.828668 
+DIFF5 3.828737 
+DIFF6 3.839366
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001383 
+DIFF3 0.001386 
+DIFF4 3.673046 
+DIFF5 3.67312 
+DIFF6 3.685869
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001981 
+DIFF3 0.001985 
+DIFF4 3.660943 
+DIFF5 3.661013 
+DIFF6 3.665634
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001727 
+DIFF3 0.001728 
+DIFF4 3.984416 
+DIFF5 3.984482 
+DIFF6 3.989471
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001311 
+DIFF3 0.001312 
+DIFF4 3.772833 
+DIFF5 3.772897 
+DIFF6 3.778085
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001761 
+DIFF3 0.001764 
+DIFF4 3.823789 
+DIFF5 3.823863 
+DIFF6 3.834052
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001827 
+DIFF3 0.00183 
+DIFF4 3.446111 
+DIFF5 3.446185 
+DIFF6 3.452129
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001989 
+DIFF3 0.001992 
+DIFF4 3.977553 
+DIFF5 3.977623 
+DIFF6 3.985066
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001796 
+DIFF3 0.001798 
+DIFF4 4.123399 
+DIFF5 4.12349 
+DIFF6 4.129738
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002044 
+DIFF3 0.002048 
+DIFF4 4.046224 
+DIFF5 4.046304 
+DIFF6 4.053116
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002124 
+DIFF3 0.002128 
+DIFF4 3.938106 
+DIFF5 3.938231 
+DIFF6 3.954088
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002223 
+DIFF3 0.002227 
+DIFF4 3.674574 
+DIFF5 3.674645 
+DIFF6 3.686561
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001154 
+DIFF3 0.001155 
+DIFF4 3.421752 
+DIFF5 3.421823 
+DIFF6 3.427811
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001303 
+DIFF3 0.001306 
+DIFF4 3.673532 
+DIFF5 3.673606 
+DIFF6 3.68002
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002443 
+DIFF3 0.002448 
+DIFF4 3.825222 
+DIFF5 3.825289 
+DIFF6 3.831579
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001299 
+DIFF3 0.0013 
+DIFF4 4.082772 
+DIFF5 4.082839 
+DIFF6 4.09286
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001235 
+DIFF3 0.001236 
+DIFF4 3.541803 
+DIFF5 3.54187 
+DIFF6 3.54618
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001879 
+DIFF3 0.001882 
+DIFF4 3.820685 
+DIFF5 3.820771 
+DIFF6 3.826686
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.00138 
+DIFF3 0.001383 
+DIFF4 3.501987 
+DIFF5 3.502058 
+DIFF6 3.50727
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001949 
+DIFF3 0.001953 
+DIFF4 3.913491 
+DIFF5 3.91356 
+DIFF6 3.91901
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.00136 
+DIFF3 0.001363 
+DIFF4 3.905538 
+DIFF5 3.905608 
+DIFF6 3.911814
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001935 
+DIFF3 0.001938 
+DIFF4 3.693803 
+DIFF5 3.693889 
+DIFF6 3.705081
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001591 
+DIFF3 0.001594 
+DIFF4 3.72855 
+DIFF5 3.728621 
+DIFF6 3.734304
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001213 
+DIFF3 0.001215 
+DIFF4 3.646054 
+DIFF5 3.646125 
+DIFF6 3.65112
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001255 
+DIFF3 0.001258 
+DIFF4 3.461017 
+DIFF5 3.461085 
+DIFF6 3.468038
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002298 
+DIFF3 0.0023 
+DIFF4 3.592063 
+DIFF5 3.592129 
+DIFF6 3.604102
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001146 
+DIFF3 0.001147 
+DIFF4 3.754081 
+DIFF5 3.754152 
+DIFF6 3.769807
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.00112 
+DIFF3 0.001121 
+DIFF4 3.536917 
+DIFF5 3.536985 
+DIFF6 3.542313
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002587 
+DIFF3 0.002589 
+DIFF4 3.725388 
+DIFF5 3.725467 
+DIFF6 3.744521
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001503 
+DIFF3 0.001506 
+DIFF4 4.109715 
+DIFF5 4.109786 
+DIFF6 4.116225
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002128 
+DIFF3 0.002132 
+DIFF4 4.431418 
+DIFF5 4.431496 
+DIFF6 4.453446
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001873 
+DIFF3 0.001878 
+DIFF4 3.979824 
+DIFF5 3.979893 
+DIFF6 3.986584
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002056 
+DIFF3 0.002059 
+DIFF4 3.920323 
+DIFF5 3.920398 
+DIFF6 3.926065
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002368 
+DIFF3 0.002369 
+DIFF4 3.853612 
+DIFF5 3.853733 
+DIFF6 3.859115
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002406 
+DIFF3 0.002411 
+DIFF4 3.993024 
+DIFF5 3.993096 
+DIFF6 3.99853
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001276 
+DIFF3 0.001277 
+DIFF4 3.521879 
+DIFF5 3.52195 
+DIFF6 3.526882
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001324 
+DIFF3 0.001326 
+DIFF4 3.599223 
+DIFF5 3.599295 
+DIFF6 3.611637
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.00344 
+DIFF3 0.003443 
+DIFF4 3.854368 
+DIFF5 3.854447 
+DIFF6 3.8657
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.003604 
+DIFF3 0.00361 
+DIFF4 3.675209 
+DIFF5 3.675296 
+DIFF6 3.70721
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.00142 
+DIFF3 0.001423 
+DIFF4 3.808434 
+DIFF5 3.808507 
+DIFF6 3.813576
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001593 
+DIFF3 0.001596 
+DIFF4 3.71689 
+DIFF5 3.716961 
+DIFF6 3.723396
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001784 
+DIFF3 0.001789 
+DIFF4 3.737187 
+DIFF5 3.737254 
+DIFF6 3.742882
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001385 
+DIFF3 0.001388 
+DIFF4 3.566417 
+DIFF5 3.566485 
+DIFF6 3.571474
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001387 
+DIFF3 0.001389 
+DIFF4 3.904165 
+DIFF5 3.904232 
+DIFF6 3.909899
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001461 
+DIFF3 0.001462 
+DIFF4 3.786662 
+DIFF5 3.786725 
+DIFF6 3.791834
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001068 
+DIFF3 0.001069 
+DIFF4 3.252899 
+DIFF5 3.252963 
+DIFF6 3.260307
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001597 
+DIFF3 0.001601 
+DIFF4 3.458814 
+DIFF5 3.458906 
+DIFF6 3.463673
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001624 
+DIFF3 0.001625 
+DIFF4 3.698675 
+DIFF5 3.698746 
+DIFF6 3.714091
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001241 
+DIFF3 0.001242 
+DIFF4 3.617499 
+DIFF5 3.617568 
+DIFF6 3.623174
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001073 
+DIFF3 0.001074 
+DIFF4 3.583078 
+DIFF5 3.583144 
+DIFF6 3.588449
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001558 
+DIFF3 0.001559 
+DIFF4 3.516787 
+DIFF5 3.516851 
+DIFF6 3.5221
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001082 
+DIFF3 0.001082 
+DIFF4 3.901094 
+DIFF5 3.901164 
+DIFF6 3.930465
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002598 
+DIFF3 0.002599 
+DIFF4 3.858728 
+DIFF5 3.858846 
+DIFF6 3.875534
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001098 
+DIFF3 0.001099 
+DIFF4 3.849302 
+DIFF5 3.849367 
+DIFF6 3.854804
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001174 
+DIFF3 0.001175 
+DIFF4 3.597423 
+DIFF5 3.597487 
+DIFF6 3.60317
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001713 
+DIFF3 0.001717 
+DIFF4 3.702919 
+DIFF5 3.702988 
+DIFF6 3.708083
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001458 
+DIFF3 0.00146 
+DIFF4 3.384479 
+DIFF5 3.384551 
+DIFF6 3.390286
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001585 
+DIFF3 0.001588 
+DIFF4 3.356692 
+DIFF5 3.356765 
+DIFF6 3.362497
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001298 
+DIFF3 0.001301 
+DIFF4 3.282265 
+DIFF5 3.28233 
+DIFF6 3.30467
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001131 
+DIFF3 0.001132 
+DIFF4 3.470104 
+DIFF5 3.47022 
+DIFF6 3.48789
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001261 
+DIFF3 0.001261 
+DIFF4 3.874876 
+DIFF5 3.874941 
+DIFF6 3.879386
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002018 
+DIFF3 0.00202 
+DIFF4 3.674121 
+DIFF5 3.674199 
+DIFF6 3.679397
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001538 
+DIFF3 0.001539 
+DIFF4 4.044534 
+DIFF5 4.0446 
+DIFF6 4.049714
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002021 
+DIFF3 0.002025 
+DIFF4 3.623116 
+DIFF5 3.623187 
+DIFF6 3.628306
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001319 
+DIFF3 0.001322 
+DIFF4 3.809976 
+DIFF5 3.810046 
+DIFF6 3.815262
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001538 
+DIFF3 0.001541 
+DIFF4 3.449994 
+DIFF5 3.450063 
+DIFF6 3.454856
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002658 
+DIFF3 0.00266 
+DIFF4 3.599797 
+DIFF5 3.599863 
+DIFF6 3.604774
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002176 
+DIFF3 0.002179 
+DIFF4 3.544672 
+DIFF5 3.544754 
+DIFF6 3.557891
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002889 
+DIFF3 0.002897 
+DIFF4 3.891526 
+DIFF5 3.891598 
+DIFF6 3.897091
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001866 
+DIFF3 0.001869 
+DIFF4 3.926788 
+DIFF5 3.926857 
+DIFF6 3.932098
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001838 
+DIFF3 0.001839 
+DIFF4 3.923974 
+DIFF5 3.924038 
+DIFF6 3.929742
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001759 
+DIFF3 0.001762 
+DIFF4 3.603323 
+DIFF5 3.603456 
+DIFF6 3.618418
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001673 
+DIFF3 0.001677 
+DIFF4 3.836216 
+DIFF5 3.836291 
+DIFF6 3.851227
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002053 
+DIFF3 0.002056 
+DIFF4 3.545275 
+DIFF5 3.545346 
+DIFF6 3.551445
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001548 
+DIFF3 0.00155 
+DIFF4 4.024238 
+DIFF5 4.024311 
+DIFF6 4.03311
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001569 
+DIFF3 0.00157 
+DIFF4 3.90298 
+DIFF5 3.903063 
+DIFF6 3.908861
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001629 
+DIFF3 0.00163 
+DIFF4 3.725536 
+DIFF5 3.725611 
+DIFF6 3.73
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002319 
+DIFF3 0.00232 
+DIFF4 3.833135 
+DIFF5 3.833199 
+DIFF6 3.852793
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001856 
+DIFF3 0.001857 
+DIFF4 4.162825 
+DIFF5 4.162934 
+DIFF6 4.194351
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001762 
+DIFF3 0.001763 
+DIFF4 3.936105 
+DIFF5 3.936174 
+DIFF6 3.940825
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002027 
+DIFF3 0.00203 
+DIFF4 3.277071 
+DIFF5 3.277142 
+DIFF6 3.282443
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001639 
+DIFF3 0.001643 
+DIFF4 3.989688 
+DIFF5 3.989757 
+DIFF6 3.994759
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002382 
+DIFF3 0.002385 
+DIFF4 3.739721 
+DIFF5 3.739792 
+DIFF6 3.745089
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002851 
+DIFF3 0.002857 
+DIFF4 3.892306 
+DIFF5 3.892378 
+DIFF6 3.898017
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001478 
+DIFF3 0.001481 
+DIFF4 3.694955 
+DIFF5 3.695025 
+DIFF6 3.711303
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001369 
+DIFF3 0.001372 
+DIFF4 3.359769 
+DIFF5 3.35984 
+DIFF6 3.367316
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001283 
+DIFF3 0.001286 
+DIFF4 3.427657 
+DIFF5 3.427738 
+DIFF6 3.435248
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002328 
+DIFF3 0.002332 
+DIFF4 3.471845 
+DIFF5 3.471916 
+DIFF6 3.477374
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002097 
+DIFF3 0.002101 
+DIFF4 3.57658 
+DIFF5 3.576648 
+DIFF6 3.581307
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002675 
+DIFF3 0.002678 
+DIFF4 3.660664 
+DIFF5 3.660738 
+DIFF6 3.6656
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.003233 
+DIFF3 0.003237 
+DIFF4 4.052591 
+DIFF5 4.052664 
+DIFF6 4.057792
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001747 
+DIFF3 0.00175 
+DIFF4 3.367443 
+DIFF5 3.367518 
+DIFF6 3.373023
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001465 
+DIFF3 0.001477 
+DIFF4 3.496362 
+DIFF5 3.496443 
+DIFF6 3.502679
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001307 
+DIFF3 0.00131 
+DIFF4 3.502973 
+DIFF5 3.503044 
+DIFF6 3.50829
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001291 
+DIFF3 0.001293 
+DIFF4 3.406692 
+DIFF5 3.406764 
+DIFF6 3.412392
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.00128 
+DIFF3 0.001281 
+DIFF4 3.954601 
+DIFF5 3.954667 
+DIFF6 3.970594
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001367 
+DIFF3 0.001368 
+DIFF4 3.450536 
+DIFF5 3.450602 
+DIFF6 3.455873
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001578 
+DIFF3 0.001581 
+DIFF4 3.434865 
+DIFF5 3.434934 
+DIFF6 3.440854
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001372 
+DIFF3 0.001375 
+DIFF4 3.785853 
+DIFF5 3.785919 
+DIFF6 3.792011
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.00175 
+DIFF3 0.001751 
+DIFF4 3.955072 
+DIFF5 3.955159 
+DIFF6 3.960413
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001543 
+DIFF3 0.001545 
+DIFF4 3.868852 
+DIFF5 3.868967 
+DIFF6 3.888084
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001747 
+DIFF3 0.001748 
+DIFF4 3.895831 
+DIFF5 3.895897 
+DIFF6 3.900977
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001087 
+DIFF3 0.001088 
+DIFF4 3.463823 
+DIFF5 3.463904 
+DIFF6 3.469864
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.00153 
+DIFF3 0.001534 
+DIFF4 3.765963 
+DIFF5 3.76607 
+DIFF6 3.77605
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001583 
+DIFF3 0.001587 
+DIFF4 4.015923 
+DIFF5 4.015991 
+DIFF6 4.021211
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.00168 
+DIFF3 0.001681 
+DIFF4 3.418079 
+DIFF5 3.418144 
+DIFF6 3.423291
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001462 
+DIFF3 0.001467 
+DIFF4 3.877429 
+DIFF5 3.877497 
+DIFF6 3.895172
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001792 
+DIFF3 0.001794 
+DIFF4 3.667671 
+DIFF5 3.66774 
+DIFF6 3.673779
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001807 
+DIFF3 0.00181 
+DIFF4 3.656438 
+DIFF5 3.656513 
+DIFF6 3.662556
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001385 
+DIFF3 0.001389 
+DIFF4 3.624091 
+DIFF5 3.624163 
+DIFF6 3.630214
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001569 
+DIFF3 0.001572 
+DIFF4 3.645363 
+DIFF5 3.645431 
+DIFF6 3.667446
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001475 
+DIFF3 0.001478 
+DIFF4 4.024385 
+DIFF5 4.024451 
+DIFF6 4.029539
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001408 
+DIFF3 0.001411 
+DIFF4 4.030667 
+DIFF5 4.030738 
+DIFF6 4.037378
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001739 
+DIFF3 0.001741 
+DIFF4 3.475982 
+DIFF5 3.476055 
+DIFF6 3.481736
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001918 
+DIFF3 0.001921 
+DIFF4 4.258127 
+DIFF5 4.2582 
+DIFF6 4.278722
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002264 
+DIFF3 0.002267 
+DIFF4 3.716737 
+DIFF5 3.716872 
+DIFF6 3.73461
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001242 
+DIFF3 0.001245 
+DIFF4 3.611446 
+DIFF5 3.611517 
+DIFF6 3.627241
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.00111 
+DIFF3 0.001111 
+DIFF4 3.848044 
+DIFF5 3.848112 
+DIFF6 3.856913
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.003153 
+DIFF3 0.003157 
+DIFF4 3.976309 
+DIFF5 3.976567 
+DIFF6 3.999024
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002731 
+DIFF3 0.002735 
+DIFF4 4.109306 
+DIFF5 4.109373 
+DIFF6 4.114914
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001606 
+DIFF3 0.001609 
+DIFF4 3.978959 
+DIFF5 3.979027 
+DIFF6 3.986089
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001262 
+DIFF3 0.001264 
+DIFF4 4.013646 
+DIFF5 4.01371 
+DIFF6 4.017872
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001646 
+DIFF3 0.001647 
+DIFF4 3.987325 
+DIFF5 3.987392 
+DIFF6 3.991471
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001173 
+DIFF3 0.001173 
+DIFF4 4.037627 
+DIFF5 4.037697 
+DIFF6 4.042344
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.0013 
+DIFF3 0.001303 
+DIFF4 4.033663 
+DIFF5 4.033734 
+DIFF6 4.06812
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001638 
+DIFF3 0.001639 
+DIFF4 3.975236 
+DIFF5 3.975301 
+DIFF6 3.988905
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001568 
+DIFF3 0.001569 
+DIFF4 4.00354 
+DIFF5 4.003633 
+DIFF6 4.008288
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001239 
+DIFF3 0.00124 
+DIFF4 3.898934 
+DIFF5 3.899 
+DIFF6 3.914751
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.00245 
+DIFF3 0.002453 
+DIFF4 4.028548 
+DIFF5 4.028634 
+DIFF6 4.04379
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002427 
+DIFF3 0.00243 
+DIFF4 3.741848 
+DIFF5 3.741989 
+DIFF6 3.750174
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001282 
+DIFF3 0.001285 
+DIFF4 3.846647 
+DIFF5 3.84672 
+DIFF6 3.852332
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001161 
+DIFF3 0.001162 
+DIFF4 4.022858 
+DIFF5 4.022928 
+DIFF6 4.040845
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001399 
+DIFF3 0.0014 
+DIFF4 3.874511 
+DIFF5 3.874578 
+DIFF6 3.892719
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001568 
+DIFF3 0.00157 
+DIFF4 3.786033 
+DIFF5 3.786133 
+DIFF6 3.805764
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.001272 
+DIFF3 0.001275 
+DIFF4 3.842237 
+DIFF5 3.84231 
+DIFF6 3.847229
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.002141 
+DIFF3 0.002145 
+DIFF4 5.079547 
+DIFF5 5.079657 
+DIFF6 5.086013
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001115 
+DIFF3 0.001116 
+DIFF4 3.847455 
+DIFF5 3.84752 
+DIFF6 3.852021
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001319 
+DIFF3 0.001319 
+DIFF4 3.762574 
+DIFF5 3.762645 
+DIFF6 3.767258
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002325 
+DIFF3 0.002328 
+DIFF4 3.812481 
+DIFF5 3.812581 
+DIFF6 3.827834
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001862 
+DIFF3 0.001865 
+DIFF4 3.61148 
+DIFF5 3.611547 
+DIFF6 3.616609
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001759 
+DIFF3 0.001762 
+DIFF4 3.486823 
+DIFF5 3.486903 
+DIFF6 3.486969
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001501 
+DIFF3 0.001504 
+DIFF4 3.411804 
+DIFF5 3.411915 
+DIFF6 3.412009
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001247 
+DIFF3 0.00125 
+DIFF4 3.320209 
+DIFF5 3.32028 
+DIFF6 3.32033
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001417 
+DIFF3 0.001421 
+DIFF4 3.783649 
+DIFF5 3.783717 
+DIFF6 3.783765
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.002233 
+DIFF3 0.002237 
+DIFF4 3.849122 
+DIFF5 3.849193 
+DIFF6 3.849243
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001438 
+DIFF3 0.001441 
+DIFF4 3.877897 
+DIFF5 3.877967 
+DIFF6 3.878019
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.002469 
+DIFF3 0.002472 
+DIFF4 3.479018 
+DIFF5 3.47909 
+DIFF6 3.47914
+main_list size: 6113 main_topic size:
+          2
+DIFF2 0.00232 
+DIFF3 0.002323 
+DIFF4 3.465618 
+DIFF5 3.46569 
+DIFF6 3.471119
+main_list size: 6288 main_topic size:
+          2
+DIFF2 0.001345 
+DIFF3 0.001347 
+DIFF4 3.429089 
+DIFF5 3.429169 
+DIFF6 3.440422
+main_list size: 6194 main_topic size:
+          2
+DIFF2 0.001464 
+DIFF3 0.001464 
+DIFF4 3.489665 
+DIFF5 3.489741 
+DIFF6 3.493853

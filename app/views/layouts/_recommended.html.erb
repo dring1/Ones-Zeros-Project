@@ -1,0 +1,22 @@
+<br/>
+
+<% if user_signed_in? %>
+<%= button_to "Refresh recommendations",  {action: :home, reset: true},method: :get,remote: true , class: 'btn btn-success'%>
+<h3>System Recommendations</h3>
+<table class="table contrast-font">
+<tr>
+	<th>Article name</th>
+	<th>Recommendation Score</th>
+	<th>Submit Date</th>
+</tr>
+<div id="rec-data">
+	<% @list.each do |article,score| %>
+	<tr>
+	<td> <%= link_to "#{article.name}", article %></td>
+	<td><%= score %></td>
+	<td><%= article.created_at %> </td>
+	</tr>
+	<% end %>
+</div>
+</table>
+<% end %>
