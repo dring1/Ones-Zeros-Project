@@ -1,0 +1,5 @@
+ $(document).ready(function() {
+    $(document).on('ajax:success', ".refresh", function(evt, data, status, xhr){
+      alert(this);
+    });       
+  });

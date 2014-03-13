@@ -2,19 +2,7 @@ class StaticPagesController < ApplicationController
 
   def home
     puts "PARAMS #{params}"
-  	if user_signed_in?
-      @user ||= current_user
-      @user.recommended_list = nil if params[:reset]
-      @user.recommended_list ||= Article.recommend(current_user.interest_list).to_json
-      @user.save
-      @list = {}
-      JSON.parse(@user.recommended_list).each {|k,v| @list[Article.find_by(id: k)] = v  }
-
-      respond_to do |format|
-        format.html{puts "MEOW"}
-        format.js {render @list}
-      end
-  	end
+    get_recommendations(false)
   end
 
   def about
@@ -26,4 +14,36 @@ class StaticPagesController < ApplicationController
     @tag_name = params[:tag]
     #render 'layouts/_spec_output'
   end
+
+  def refresh
+     get_recommendations(true)
+     respond_to do |format|
+      format.html {render partial: 'refresh'}
+      format.js
+     end
+
+  end
+
+private
+  def get_recommendations(reset)
+    if user_signed_in?
+      @user ||= current_user
+      #if the user has clicked new recommentatoins
+      #then set the current list to nil
+      @user.recommended_list = nil if reset
+      @user.recommended_list ||= Article.recommend(current_user.interest_list).to_json
+      @user.save
+      @list = {}
+      JSON.parse(@user.recommended_list).each {|k,v| @list[Article.find_by(id: k)] = v  }
+
+      # respond_to do |format|
+      #   format.html{}
+      #   format.js { render partial: 'refresh'}
+      # end
+
+      #render partial: 'recommended'
+
+    end
+  end
+
 end

@@ -1,7 +1,8 @@
 <br/>
 
 <% if user_signed_in? %>
-<%= button_to "Refresh recommendations",  {action: :home, reset: true},method: :get,remote: true , class: 'btn btn-success'%>
+
+<%= button_to "Refresh Recommendations",  refresh_path, remote: true,method: :get, class:'btn btn-primary', type: :html %>
 <h3>System Recommendations</h3>
 <table class="table contrast-font">
 <tr>
@@ -20,3 +21,5 @@
 </div>
 </table>
 <% end %>
+
+<br/>
