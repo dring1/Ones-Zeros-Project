@@ -1,8 +1,8 @@
-class ArticlesController < ApplicationController
+sclass ArticlesController < ApplicationController
 
 	  before_filter :authenticate_user!, except: [:index, :show]
 #this is a test
-	  def new	
+	  def new
 	  	@article = Article.new
 	  end
 
@@ -18,7 +18,7 @@ class ArticlesController < ApplicationController
 
 	  	@article = Article.create(article_params)
 
-	  	#refactor - 2 saves 
+	  	#refactor - 2 saves
 	  	if @article.save
 	  		@article.topic_list.add(@topics, parse: true)
 	  		@article.save
@@ -28,7 +28,7 @@ class ArticlesController < ApplicationController
 	  end
 
 	  def show
-	  	@article = Article.find(params[:id])	  	
+	  	@article = Article.find(params[:id])
 	  end
 
 	  def index
@@ -37,7 +37,7 @@ class ArticlesController < ApplicationController
 	  end
 
 	  def destroy
-	  	
+
 	  end
 
 	  def update
@@ -53,12 +53,12 @@ class ArticlesController < ApplicationController
 		  	end
 	 	end
 	  	redirect_to Article
-	  		
+
 	  end
 
-	  
+
 private
 	def article_params
 		params.require(:article).permit(:name, :user_id)
-	end	
+	end
 end

@@ -38,28 +38,26 @@ class Article < ActiveRecord::Base
                 #find percentages - list by percentages
                 list.sort_by {|k,v| v}
                 t5 = Time.new
-                list
             end
 
         #returns recommended in descending order
         recommended = list.sort_by {|k,v| v}.last(10)
 
-        output = {}
-        recommended.each { |k,v| output[Article.find_by(id: k)] = v}
+        #output = {}
+        # recommended.each { |k,v| output[Article.find_by(id: k)] = v}
 
         t6 = Time.new
-        file = File.open("output-25k.txt", "a")
-        file << "main_list size: #{main_list.size} main_topic size:
-          #{main_topic.size}\n"
-        file << "DIFF2 #{t2 - t1} \n"
-        file << "DIFF3 #{t3 - t1} \n"
-        file << "DIFF4 #{t4 - t1} \n"
-        file << "DIFF5 #{t5 - t1} \n"
-        file << "DIFF6 #{t6 - t1}\n"
-        file.close
+        # file = File.open("output-25k.txt", "a")
+        # file << "main_list size: #{main_list.size} main_topic size:
+        #   #{main_topic.size}\n"
+        # file << "DIFF2 #{t2 - t1} \n"
+        # file << "DIFF3 #{t3 - t1} \n"
+        # file << "DIFF4 #{t4 - t1} \n"
+        # file << "DIFF5 #{t5 - t1} \n"
+        # file << "DIFF6 #{t6 - t1}\n"
+        # file.close
 
-        Hash[output.to_a.reverse]
-
+        Hash[recommended.to_a.reverse]
     end
 
     def self.specific_recommend(interest)
