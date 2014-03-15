@@ -1,0 +1,11 @@
+</br>
+<div class="contrast-font">
+<h3>Tag System Recommendation</h3>
+	<%= form_tag refresh_spec_path,method: :get,remote: true,id:'tag-input'  do |f| %>
+		Tag: <%= text_field_tag :tag %>	  </br>
+		<%= submit_tag "Submit", class: 'btn btn-primary' %>
+	<% end %>
+	<div id="spec-rec-output">
+
+	</div>
+</div>

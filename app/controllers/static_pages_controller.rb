@@ -8,17 +8,22 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def spec_rec
+  def refresh_spec
+    puts "CALLED"
     @list_spec = {}
     @list_spec = Article.specific_recommend(params[:tag])
     @tag_name = params[:tag]
+    respond_to do |format|
+      format.html
+      format.js
+    end
     #render 'layouts/_spec_output'
   end
 
   def refresh
      get_recommendations(true)
      respond_to do |format|
-      format.html {render partial: 'refresh'}
+      #format.html {render partial: 'refresh'}
       format.js
      end
 

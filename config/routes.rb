@@ -9,7 +9,7 @@ OnesZerosProject::Application.routes.draw do
   root "static_pages#home"
   get '/about', to: "static_pages#about"
   get '/submit_article', to: "articles#new"
-  post '/spec', to: "static_pages#spec_rec"
+  get '/refresh_spec', to: "static_pages#refresh_spec"
   get '/refresh', to: "static_pages#refresh"
-   
+
  end
