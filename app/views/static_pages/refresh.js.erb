@@ -1,1 +1,3 @@
-$("#recommended").empty().append("<%= j render partial: 'recommended' %>");
+$(".spinner").fadeOut(800 , function(){
+  $("#recommended").empty().hide().append("<%= j render partial: 'recommended' %>").fadeIn(800);
+});

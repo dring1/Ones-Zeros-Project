@@ -2,26 +2,26 @@
 <div class="table contrast-font">
 
 
-<% if user_signed_in? %>
-<h3>System Recommendations</h3>
-<%= button_to "Refresh Recommendations",  refresh_path, remote: true,method: :get, class:'btn btn-primary', type: :html %>
+  <% if user_signed_in? %>
 
-<table >
-<tr>
-	<th>Article name</th>
-	<th>Recommendation Score</th>
-	<th>Submit Date</th>
-</tr>
-<div id="rec-data">
-	<% @list.each do |article,score| %>z
-	<tr>
-	<td> <%= link_to "#{article.name}", article %></td>
-	<td><%= score %></td>
-	<td><%= article.created_at %> </td>
-	</tr>
-	<% end %>
-</div>
-</table>
-<% end %>
+
+
+  <table id="output">
+    <tr>
+      <th>Article name</th>
+      <th>Recommendation Score</th>
+      <th>Submit Date</th>
+    </tr>
+    <div id="rec-data">
+      <% @list.each do |article,score| %>
+      <tr>
+        <td> <%= link_to "#{article.name}", article %></td>
+        <td><%= score %></td>
+        <td><%= "#{article.created_at.day} - #{article.created_at.month} - #{article.created_at.year}" %> </td>
+      </tr>
+      <% end %>
+    </div>
+  </table>
+  <% end %>
 </div>
 <br/>
