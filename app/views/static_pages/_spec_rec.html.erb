@@ -1,5 +1,5 @@
 <br/>
-
+<% if not @list_spec.empty? %>
 <h3>System Recommendations for  <%= "#{@tag_name}" %> </h3>
 <table class="table contrast-font">
 <tr>
@@ -22,3 +22,6 @@
 <a id="anchor"></a>
 
 </table>
+<% else %>
+<h3>No Results Found</h3>
+<% end	%>

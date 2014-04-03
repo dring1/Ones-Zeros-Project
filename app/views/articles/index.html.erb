@@ -1,23 +1,52 @@
-<% @article.each do |article| %>
+<div class="center-div">
 <div class='contrast-font'>
-
-	<span><%= article.name %></span>
-	
-
-	<% if user_signed_in? %>	
-		<%= form_for article do |f| %>
-			<% if VotedOnRelationship.find_by_user_id_and_article_id(current_user.id, article.id)%>
-				<span>Already voted!</span>
-			<% else  %>
-				<%= f.submit "Up", name: "up_vote", class:'btn btn-success'  %> | <%= f.submit "Down", name: "down_vote", class:'btn btn-danger'  %>
-			<% end %>
+	<table class="table center" id="show-table" >
+		<tr>
+			<th>
+				Article Name
+			</th>
+			<th>
+				Votes
+			</th>
+			<!-- 	<th>
+			Default Rank
+		</th> -->
+		<th>
+			Submitted At
+		</th>
+		<% if user_signed_in? %>
+			<th>
+				Vote Status
+			</th>
 		<% end %>
-	
-	<% end %>
-</div>
-<br/>
-<% end %>
-<div class="center contrast-font flickr_pagination">
+	</tr>
+	<% @article.each do |article| %>
+	<tr>
+	<td> <span><%= article.name %></span></td>
+	<td>
+		<%= article.up_vote - article.down_vote %>
+	</td>
+	<td>	<%= article.created_at %> </td>
+		<% if user_signed_in? %>
+		<td>
+			<%= form_for article do |f| %>
+				<% if VotedOnRelationship.find_by_user_id_and_article_id(current_user.id,
+					article.id)%>
+					<span>Already voted!</span>
+					<% else  %>
+					<%= f.submit "Up", name: "up_vote", class:'btn btn-success'  %>
+					| <%= f.submit "Down", name: "down_vote", class:'btn btn-danger'  %>
+					<% end %>
+					<% end %>
+			</td>
+		<% end %>
 
-<%= will_paginate @article %>
+
+	</tr>
+		<% end %>
+	</table>
+</div>
+<div class="center contrast-font flickr_pagination">
+	<%= will_paginate @article %>
+</div>
 </div>
