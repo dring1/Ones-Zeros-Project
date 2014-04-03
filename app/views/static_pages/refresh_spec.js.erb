@@ -1,2 +1,5 @@
 $("#tag-input")[0].reset();
 $("#spec-rec-output").empty().append("<%= j render partial: 'spec_rec' %>");
+$(document.body).animate({
+    'scrollTop':   $('#anchor').offset().top
+}, 2000);

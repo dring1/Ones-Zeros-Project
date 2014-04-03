@@ -1,12 +1,11 @@
 <br/>
-<div class="table contrast-font">
-
-
-  <% if user_signed_in? %>
+<div class=" contrast-font">
 
 
 
-  <table id="output">
+
+
+  <table class="table" id="output">
     <tr>
       <th>Article name</th>
       <th>Recommendation Score</th>
@@ -17,11 +16,11 @@
       <tr>
         <td> <%= link_to "#{article.name}", article %></td>
         <td><%= score %></td>
-        <td><%= "#{article.created_at.day} - #{article.created_at.month} - #{article.created_at.year}" %> </td>
+        <td><%= "#{article.created_at}" %> </td>
       </tr>
       <% end %>
     </div>
   </table>
-  <% end %>
 </div>
+<a id="anchor"></a>
 <br/>

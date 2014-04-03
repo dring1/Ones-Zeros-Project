@@ -16,26 +16,24 @@
 
 				<p>Hosted by <a href="http://www.heroku.com"> Heroku </a>.
 				</div>
-
-				<div class="left contrast-font" >
+				<div class="contrast-font" >
 				</br>
-					<h3>System Recommendations</h3>
-					<% if user_signed_in? %>
-						<%= button_to "Refresh Recommendations",  refresh_path, remote: true,method: :get, class:'btn btn-primary', id:'refresh-rec-btn', type: :html %>
+				<h3>System Recommendations</h3>
+				<% if user_signed_in? %>
+				<%= button_to "Refresh Recommendations",  refresh_path, remote: true,method: :get, class:'btn btn-primary', id:'refresh-rec-btn', type: :html %>
 
-					<div id="recommended"> <%= render 'recommended' %> </div>
-					<% else %>
-						<P z> SIGN IN TO GET RECOMMENDATIONS </P>
-					<% end %>
-					<div class="spinner">
-						<div class="rect1"></div>
-						<div class="rect2"></div>
-						<div class="rect3"></div>
-						<div class="rect4"></div>
-						<div class="rect5"></div>
-					</div>
+				<div id="recommended"> <%= render 'recommended' %> </div>
+				<% else %>
+				<p> SIGN IN TO GET RECOMMENDATIONS </P>
+				<% end %>
+				<div class="spinner">
+					<div class="rect1"></div>
+					<div class="rect2"></div>
+					<div class="rect3"></div>
+					<div class="rect4"></div>
+					<div class="rect5"></div>
 				</div>
-				<div class="right" id="spec-rec"> <%= render 'specific_recommend' %> </div>
-
-
 			</div>
+			<div class="" id="spec-rec"> <%= render 'specific_recommend' %> </div>
+
+		</div>

@@ -64,6 +64,4 @@ end
 # gem 'debugger', group: [:development, :test]
 gem 'acts-as-taggable-on'
 
-gem 'parallel'
-gem 'groupdate'
-gem 'chartkick'
+gem 'will_paginate', '~> 3.0'

@@ -32,8 +32,7 @@ class ArticlesController < ApplicationController
 	  end
 
 	  def index
-	  	@article = Article.all.sample(50)
-
+	  	@article = Article.paginate(page: params[:page], per_page: 10)
 	  end
 
 	  def destroy
@@ -52,7 +51,7 @@ class ArticlesController < ApplicationController
 		  		flash[:warning] = "Already voted?!?"
 		  	end
 	 	end
-	  	redirect_to Article
+	  	redirect_to @article
 
 	  end
 
