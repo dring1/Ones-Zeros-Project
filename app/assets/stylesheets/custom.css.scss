@@ -87,7 +87,15 @@ p {
 
 
 /* header */
+.header{
+    width: 80%;
+    margin: 0 auto;
 
+}
+.resize{
+  float: right;
+  width: 700px;
+}
 #logo {
   float: left;
   margin-right: 10px;

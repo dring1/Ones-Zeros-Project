@@ -20,9 +20,8 @@
 				</br>
 				<h3>System Recommendations</h3>
 				<% if user_signed_in? %>
-				<%= button_to "Refresh Recommendations",  refresh_path, remote: true,method: :get, class:'btn btn-primary', id:'refresh-rec-btn', type: :html %>
-
-				<div id="recommended"> <%= render 'recommended' %> </div>
+					<%= button_to "Refresh Recommendations",  refresh_path, remote: true,method: :get, class:'btn btn-primary', id:'refresh-rec-btn', type: :html %>
+					<div id="recommended"> <%= render 'recommended' %> </div>
 				<% else %>
 				<p> SIGN IN TO GET RECOMMENDATIONS </P>
 				<% end %>

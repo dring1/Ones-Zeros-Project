@@ -7,6 +7,7 @@ class Article < ActiveRecord::Base
     has_many :voted_on_relationships
     has_many :users, through: :voted_on_relationships
 
+    validates :name, presence: true, length: {maximum: 50}
     EPOCH = Time.new(1970,1,1)
 
     def vote(art_id)
@@ -97,7 +98,7 @@ class Article < ActiveRecord::Base
         else
             0
         end
-
+        #change order + .. to rever to deliverable 1 rank
         temp = ((order * sign * seconds / 45000) * accuracy).round(7)
         t4 = Time.new
         #puts "*******   #{t2 - t1}  || #{t3 - t1} || #{t4 - t1}   "

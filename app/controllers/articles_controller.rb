@@ -7,7 +7,7 @@ class ArticlesController < ApplicationController
 	  end
 
 	  def create
-
+			puts "Here  I am"
 	  	@topics  = params[:article][:topics]
 
 	  	params[:article].except!(:topics)
@@ -24,6 +24,7 @@ class ArticlesController < ApplicationController
 	  		@article.save
 	  		redirect_to @article
 	  	else
+				render :new
 	  	end
 	  end
 
@@ -58,6 +59,6 @@ class ArticlesController < ApplicationController
 
 private
 	def article_params
-		params.require(:article).permit(:name, :user_id)
+		params.require(:article).permit(:name, :user_id, :url)
 	end
 end

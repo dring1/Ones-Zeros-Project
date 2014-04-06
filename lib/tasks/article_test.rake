@@ -24,18 +24,29 @@ namespace :gen_test do
     end
 
     task :gen_seq_date_articles => :environment do
-      Article.destroy.all
+      Article.destroy_all
       date = Date.new(2013,1,1)
       (1..365).each do |i|
         art = Article.create(name: "Article-#{i}")
         art.up_vote = 1500
         art.down_vote = 750
-        a.topic_list.add("Ruby", "Ruby-on-Rails", "Python", "Unix",
+        art.topic_list.add("Ruby", "Ruby-on-Rails", "Python", "Unix",
         "Computer Science", "Graphs", "Javascript")
-        a.save
-        a.created_at = date
-        a.save
+        art.save
+        art.created_at = date
+        art.save
         date = date.next
+        puts i
       end
     end
+
+    task :year_rank_compute => :environment  do
+      file = File.open("output-yearly-final.txt", "a")
+
+      Article.all.each do |article|
+        file << "#{article.name} \t #{article.created_at.to_date} \t #{Article.rank(article, article.topic_list, 0)} \n"
+      end
+      file.close
+    end
+
 end

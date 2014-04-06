@@ -11,13 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140311145515) do
+ActiveRecord::Schema.define(version: 20140406055306) do
 
   create_table "articles", force: true do |t|
     t.string   "name"
     t.string   "url"
-    t.integer  "up_vote"
-    t.integer  "down_vote"
+    t.integer  "up_vote",    default: 0
+    t.integer  "down_vote",  default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "topics"
