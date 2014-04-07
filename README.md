@@ -6,4 +6,6 @@
 ######To get up and running
 ======
 1. Have Rails installed
-2. '''git clone https://github.com/dring1/Ones-Zeros-Project.git'''
+2. '''
+    git clone https://github.com/dring1/Ones-Zeros-Project.git
+   '''
