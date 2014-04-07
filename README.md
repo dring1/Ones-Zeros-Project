@@ -1,7 +1,11 @@
 # Ones and Zeros Project README
 ###This project is for Carleton University's COMP4905 Honours Project Course by Devon Ring
 
+
 #####Documentation for the project is available at:
+
+A single threaded-single core recommendation system implementing an ranking algorithm with roots to reddit,
+but taking into consideration a users interests.
 
 ##To get up and running
 
