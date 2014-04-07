@@ -6,7 +6,9 @@
       <ul class="nav navbar-nav  resize ">
         <% if user_signed_in? %>
         <li> <%= link_to "Hello!, #{current_user.username}", "#" %></li>.
+        <li> <%= link_to "edit account", edit_user_registration_path %> </li>
         <li> <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+
           <li><%= link_to "Submit Article", submit_article_path %></li>
 
           <% else %>
@@ -14,7 +16,6 @@
           <li> <%= link_to "Login", new_user_session_path %> </li>
           <% end %>
                   <li><%= link_to "Show articles", articles_path %></li> </li>
-          <li><%= link_to "About", about_path %></li>
 
         </ul>
 

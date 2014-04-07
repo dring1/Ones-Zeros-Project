@@ -40,6 +40,7 @@ private
       @user.save
       @list = {}
       JSON.parse(@user.recommended_list).each {|k,v| @list[Article.find_by(id: k)] = v  }
+
       puts @list
       # respond_to do |format|
       #   format.html{}

@@ -1,7 +1,7 @@
 class CustomDevise::RegistrationsController <  Devise::RegistrationsController
 
 	def create
-		interests = params[:user][:interests] #acquire users interests 
+		interests = params[:user][:interests] #acquire users interests
 		params[:user].except!(:interests) #remove interests from params
 		super #call devises create
 
@@ -18,4 +18,19 @@ class CustomDevise::RegistrationsController <  Devise::RegistrationsController
 			end
 		end
 	end
+
+	def update
+		super
+		@user = User.find_by(id: resource.id)
+		@interests ||= @user.interest_list
+		@user.interest_list = params[:interests]
+
+		if resource.save
+			puts params
+		else
+			@interests = params[:interests]
+			puts interests
+		end
+	end
+
 end

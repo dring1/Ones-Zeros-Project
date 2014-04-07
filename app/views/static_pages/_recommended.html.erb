@@ -1,27 +1,27 @@
 <br/>
 <div class=" contrast-font">
+  <% if not @list.empty? %>
+    <table class="table" id="output">
+      <tr>
+        <th>Article name</th>
+        <th>Recommendation Score</th>
+        <th>Submit Date</th>
+      </tr>
+      <div id="rec-data">
 
-
-
-
-
-  <table class="table" id="output">
-    <tr>
-      <th>Article name</th>
-      <th>Recommendation Score</th>
-      <th>Submit Date</th>
-    </tr>
-    <div id="rec-data">
-        <% @list.each do |article,score| %>
-        <tr>
-          <% if article %>
-            <td> <%= link_to "#{article.name}", article %></td>
-            <td><%= score %></td>
-            <td><%= "#{article.created_at}" %> </td>
+          <% @list.each do |article,score| %>
+          <tr>
+            <% if article %>
+              <td> <%= link_to "#{article.name}", article %></td>
+              <td><%= score %></td>
+              <td><%= "#{article.created_at}" %> </td>
+            <% end %>
+          </tr>
           <% end %>
-        </tr>
-        <% end %>
-    </div>
-  </table>
+      </div>
+    </table>
+    <% else %>
+      <span>No articles exist with your interests, to add articles of interest <%= link_to "click here!" , new_article_path %></span>
+    <% end %>
 </div>
 <br/>
