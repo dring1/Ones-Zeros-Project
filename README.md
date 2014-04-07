@@ -14,7 +14,11 @@
 
 
 ### Generate Dummy Data
+
 Some tasks have been created to generate dummy data
+
 1. rake gen_test:gen_articles_25k #large set with high number of tags
+
 2. rake gen_test:gen_articles_5k #smaller set with lower number of tags
+
 3. rake gen_test:gen_seq_date_articles #creates articles with dates b/w Jan-Dev 2013
