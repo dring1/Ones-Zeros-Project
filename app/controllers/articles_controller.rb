@@ -30,6 +30,7 @@ class ArticlesController < ApplicationController
 
 	  def show
 	  	@article = Article.find(params[:id])
+			can_vote?(current_user, @article)
 	  end
 
 	  def index
@@ -55,6 +56,15 @@ class ArticlesController < ApplicationController
 	  	redirect_to @article
 
 	  end
+
+		def can_vote?(user,article)
+			@vote = true
+			if VotedOnRelationship.find_by_user_id_and_article_id(user.id,
+				article.id)
+				@vote = false
+			end
+
+		end
 
 
 private

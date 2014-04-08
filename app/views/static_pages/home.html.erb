@@ -23,7 +23,7 @@
 					<%= button_to "Refresh Recommendations",  refresh_path, remote: true,method: :get, class:'btn btn-primary', id:'refresh-rec-btn', type: :html %>
 					<div id="recommended"> <%= render 'recommended' %> </div>
 				<% else %>
-				<p> SIGN IN TO GET RECOMMENDATIONS </P>
+				<h3> SIGN IN TO GET RECOMMENDATIONS </h3>
 				<% end %>
 				<div class="spinner">
 					<div class="rect1"></div>

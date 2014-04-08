@@ -1,7 +1,18 @@
-  <h3><%= @article.name %> </h3>
+<h3><%= @article.name %> </h3>
 <br/>
 <h3>Positve<%= @article.up_vote %></h3>
 <br/>
 <h3>Negative<%= @article.down_vote %></h3>
 <br/>
-<%= @article.topic_list %>
+<%=  @article.topic_list {|topic| topic.humanize} %>
+
+<%= form_for @article do |f| %>
+  <% if not @vote %>
+      <span>Already voted!</span>
+    <% else  %>
+      <%= f.submit "Up", name: "up_vote", class:'btn btn-success'  %>
+      | <%= f.submit "Down", name: "down_vote", class:'btn btn-danger'  %>
+    <% end %>
+
+</td>
+<% end %>

@@ -22,14 +22,9 @@ class CustomDevise::RegistrationsController <  Devise::RegistrationsController
 	def update
 		super
 		@user = User.find_by(id: resource.id)
-		@interests ||= @user.interest_list
+		@interests = @user.interest_list
 		@user.interest_list = params[:interests]
-
-		if resource.save
-			puts params
-		else
-			@interests = params[:interests]
-			puts interests
+		if @user.save
 		end
 	end
 
