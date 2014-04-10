@@ -30,6 +30,7 @@ class ArticlesController < ApplicationController
 
 	  def show
 	  	@article = Article.find(params[:id])
+			@score = Article.rank(@article, @article.topic_list, true).ceil
 			can_vote?(current_user, @article)
 	  end
 
