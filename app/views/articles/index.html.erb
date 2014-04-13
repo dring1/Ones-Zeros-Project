@@ -22,7 +22,7 @@
 	</tr>
 	<% @article.each do |article| %>
 	<tr>
-	<td> <span><%= article.name %></span></td>
+	<td> <span><%= link_to "#{article.name}", article %></span></td>
 	<td>
 		<%= article.up_vote - article.down_vote %>
 	</td>

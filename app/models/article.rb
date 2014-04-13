@@ -82,8 +82,8 @@ class Article < ActiveRecord::Base
         popularity = article.up_vote - article.down_vote
         #compute percent value of intersection of topics and user interests
         accuracy = if specific
-                        (article.topic_list & interests).size.to_f /
-                        interests.size.to_f
+
+                        (article.topic_list & interests).size.to_f / interests.size.to_f
                     else
                         1
                     end
@@ -101,7 +101,6 @@ class Article < ActiveRecord::Base
         #change order + .. to rever to deliverable 1 rank
         temp = ((order * sign * seconds / 45000) * accuracy).round(7)
         t4 = Time.new
-        #puts "*******   #{t2 - t1}  || #{t3 - t1} || #{t4 - t1}   "
         temp
     end
 

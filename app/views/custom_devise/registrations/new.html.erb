@@ -15,7 +15,7 @@
     <div><%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation %></div>
 
-    <div><%= f.label :interests %> <br/>
+    <div><%= f.label :interests, "Interests (delimiter by , )"  %> <br/>
     <%= f.text_field :interests %> </div>
 
     <div><%= f.submit "Sign up", class:'btn-primary' %></div>

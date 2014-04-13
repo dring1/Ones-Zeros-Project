@@ -10,13 +10,17 @@
 
 </tr>
 <div id="spec-rec-data">
+	<% i = 1 %>
+
 	<% @list_spec.each do |article,score| %>
 	<tr>
-	<td> <%= link_to "#{article.name}", article %></td>
+	<td> <%= "#{i}. "  %><%= link_to "#{article.name}", article %></td>
 	<td><%= score %></td>
 		<td><%= article.created_at %> </td>
 
 	</tr>
+	<% i = i + 1 %>
+
 	<% end %>
 </div>
 

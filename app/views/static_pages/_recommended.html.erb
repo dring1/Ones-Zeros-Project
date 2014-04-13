@@ -8,13 +8,14 @@
         <th>Submit Date</th>
       </tr>
       <div id="rec-data">
-
+          <% i = 1 %>
           <% @list.each do |article,score| %>
           <tr>
             <% if article %>
-              <td> <%= link_to "#{article.name}", article %></td>
+              <td><%= "#{i}. "  %><%= link_to "#{article.name}", article %></td>
               <td><%= score %></td>
               <td><%= "#{article.created_at}" %> </td>
+              <% i = i + 1 %>
             <% end %>
           </tr>
           <% end %>
