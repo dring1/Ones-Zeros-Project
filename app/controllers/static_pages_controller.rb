@@ -37,10 +37,10 @@ private
       #then set the current list to nil
       @user.recommended_list = nil if reset
       @user.recommended_list ||= Article.recommend(current_user.interest_list).to_json
+      
       @user.save
       @list = {}
       JSON.parse(@user.recommended_list).each {|k,v| @list[Article.find_by(id: k)] = v  }
-
       puts @list
       # respond_to do |format|
       #   format.html{}

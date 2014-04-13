@@ -17,29 +17,36 @@ class Article < ActiveRecord::Base
     #overall recommendations
     def self.recommend(interests)
         t1 = Time.new
-        return self.limit(10) if interests.empty?
-
         list = {}
+        if interests.empty?
+          default_list = {}
+          Article.limit(10).each do |article|
+            default_list[article.id] = self.rank(article, interests,false).ceil
+          end
+          recommended = default_list.sort_by {|k,v| v}
+          Hash[recommended.to_a.reverse]
+        end
+
             #BASE CASE FOR TOPICS SIZE is not array?
             #Using probabilistic model - undeterministed
-            if interests.kind_of?(Array)
-                rand_index = interests.size
-                #main_topic = interests[rand(rand_index)]
-                main_topic = interests.sample(Math.sqrt(interests.size).ceil)
-                main_list = Article.tagged_with(main_topic)
+        if interests.kind_of?(Array)
+            rand_index = interests.size
+            #main_topic = interests[rand(rand_index)]
+            main_topic = interests.sample(Math.sqrt(interests.size).ceil)
+            main_list = Article.tagged_with(main_topic)
 
-                t2 = Time.new
-                #temp= main_list.sample(Math.sqrt(main_list.size).ceil)
-                #reduce number of elements in main list to ceil,(root n )
-                t3 = Time.new
-                main_list.sample(Math.sqrt(main_list.size).ceil).each do |article|
-                    list[article.id] =  self.rank(article, interests,true).ceil
-                end
-                t4 = Time.new
-                #find percentages - list by percentages
-                list.sort_by {|k,v| v}
-                t5 = Time.new
+            t2 = Time.new
+            #temp= main_list.sample(Math.sqrt(main_list.size).ceil)
+            #reduce number of elements in main list to ceil,(root n )
+            t3 = Time.new
+            main_list.sample(Math.sqrt(main_list.size).ceil).each do |article|
+                list[article.id] =  self.rank(article, interests,true).ceil
             end
+            t4 = Time.new
+            #find percentages - list by percentages
+            list.sort_by {|k,v| v}
+            t5 = Time.new
+        end
 
         #returns recommended in descending order
         recommended = list.sort_by {|k,v| v}.last(10)

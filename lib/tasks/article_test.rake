@@ -118,7 +118,7 @@ namespace :gen_test do
               a.topic_list.add(t) if (coin_flip == 1)
           end
           a.up_vote  = rand(1..2500)
-          a.down_vote = rand(-500..-1)
+          a.down_vote = rand(1..500)
           a.save
           a.created_at = Date.new(rand(2000..2013),rand(1..12),rand(1..28))
           a.save
