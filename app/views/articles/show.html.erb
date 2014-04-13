@@ -13,9 +13,10 @@
       <li><%= topic.capitalize %> </li>
     <% end %>
   </ul>
-
-
-  <%= form_for @article do |f| %>
+  <% if not user_signed_in? %>
+    <h3>Must be signed in to vote!</h3>
+  <% else %>
+    <%= form_for @article do |f| %>
     <% if not @vote %>
         <span>Already voted!</span>
       <% else  %>
@@ -23,6 +24,6 @@
         | <%= f.submit "Down", name: "down_vote", class:'btn btn-danger'  %>
       <% end %>
 
-  </td>
+  <% end %>
   <% end %>
 </div>
