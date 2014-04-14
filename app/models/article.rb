@@ -19,10 +19,10 @@ class Article < ActiveRecord::Base
         t1 = Time.new
         list = {}
         if interests.empty?
-          default_list = {}
-          Article.limit(10).each do |article|
-            default_list[article.id] = self.rank(article, interests,false).ceil
-          end
+            default_list = {}
+            Article.limit(10).each do |article|
+              default_list[article.id] = self.rank(article, interests,false).ceil
+            end
           recommended = default_list.sort_by {|k,v| v}
           Hash[recommended.to_a.reverse]
         end
